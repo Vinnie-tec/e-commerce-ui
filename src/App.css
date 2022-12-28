@@ -16,6 +16,20 @@ a {
   --color-Ad: #232f3e;
   --color-Ae: #bf4800;
   --color-Ba: #f5f5f7;
+  --color-Bb: #ededed;
+  --color-Bc: #777777;
+}
+
+.section-heading {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+.card-wrapper {
+  background-color: #fff;
+  box-shadow: 0 0 10px #0000001a;
+  padding: 15px;
 }
 
 .form-control:focus {
@@ -195,27 +209,62 @@ footer .input-group-text {
   padding: 15px;
 }
 
-.categories > div {
+.categories>div {
   width: 24%;
   padding: 10px 10px 10px 20px;
 }
 
-.categories > div:nth-child(1),
-.categories > div:nth-child(2),
-.categories > div:nth-child(3),
-.categories > div:nth-child(4) {
+.categories>div:nth-child(1),
+.categories>div:nth-child(2),
+.categories>div:nth-child(3),
+.categories>div:nth-child(4) {
   border-bottom: 1px solid #ededed;
 }
 
-.categories > div:nth-child(1),
-.categories > div:nth-child(2),
-.categories > div:nth-child(3) {
+.categories>div:nth-child(1),
+.categories>div:nth-child(2),
+.categories>div:nth-child(3) {
   border-right: 1px solid #ededed;
 }
 
-.categories > div:nth-child(5),
-.categories > div:nth-child(6),
-.categories > div:nth-child(7) {
+.categories>div:nth-child(5),
+.categories>div:nth-child(6),
+.categories>div:nth-child(7) {
   border-right: 1px solid #ededed;
 }
 
+/* blog */
+.blog-card {
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.blog-card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.blog-content {
+  padding: 15px;
+}
+
+.blog-content p.date {
+  font-size: 13px;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  font-weight: 400;
+  color: var(--color-Bc);
+  padding: 0;
+}
+
+.blog-content h5 {
+  font-size: 18px;
+  color: var(--color-Aa);
+}
+
+.blog-content p.desc {
+  font-size: 12px;
+  line-height: 22px;
+  color: var(--color-Ab);
+}
